@@ -12,6 +12,8 @@
 		89F2570520B224DE00C26A3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89F2570320B224DE00C26A3B /* Main.storyboard */; };
 		89F2570720B224E000C26A3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89F2570620B224E000C26A3B /* Assets.xcassets */; };
 		89F2570A20B224E000C26A3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89F2570820B224E000C26A3B /* LaunchScreen.storyboard */; };
+		89F2571220B226E900C26A3B /* FaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F2571120B226E900C26A3B /* FaderView.swift */; };
+		89F2573220B37D0B00C26A3B /* FaderVerwaltung.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F2573120B37D0B00C26A3B /* FaderVerwaltung.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		89F2570620B224E000C26A3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89F2570920B224E000C26A3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89F2570B20B224E000C26A3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89F2571120B226E900C26A3B /* FaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FaderView.swift; path = Supporting/FaderView.swift; sourceTree = "<group>"; };
+		89F2573120B37D0B00C26A3B /* FaderVerwaltung.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaderVerwaltung.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				89F256FF20B224DE00C26A3B /* AppDelegate.swift */,
 				89F2570120B224DE00C26A3B /* ViewController.swift */,
+				89F2571120B226E900C26A3B /* FaderView.swift */,
+				89F2573120B37D0B00C26A3B /* FaderVerwaltung.swift */,
 				89F2570320B224DE00C26A3B /* Main.storyboard */,
 				89F2570620B224E000C26A3B /* Assets.xcassets */,
 				89F2570820B224E000C26A3B /* LaunchScreen.storyboard */,
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				89F2570220B224DE00C26A3B /* ViewController.swift in Sources */,
+				89F2573220B37D0B00C26A3B /* FaderVerwaltung.swift in Sources */,
 				89F2570020B224DE00C26A3B /* AppDelegate.swift in Sources */,
+				89F2571220B226E900C26A3B /* FaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
